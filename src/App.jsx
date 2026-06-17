@@ -10,6 +10,7 @@ import Contact from './components/pages/Contact'
 const App = () => {
   return (
     <BrowserRouter>
+    
     <Routes>
         <Route element={<MainLayout/>}>
         <Route path='/' element={<Home/>} />
