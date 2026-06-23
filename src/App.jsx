@@ -6,6 +6,7 @@ import About from './components/pages/About'
 import Shop from './components/pages/Shop'
 import Blog from './components/pages/Blog'
 import Contact from './components/pages/Contact'
+import FooterSection from './components/layout/Footer'
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
         <Route path='/shop' element={<Shop/>} />
         <Route path='/blog' element={<Blog/>} />
         </Route>
-    </Routes>
+    </Routes>  
+        <FooterSection/>
     </BrowserRouter>
   )
 }
